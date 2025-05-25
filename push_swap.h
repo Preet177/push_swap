@@ -15,10 +15,8 @@ typedef struct s_node
     struct s_node   *prev;
 }					t_node;
 
-//Source codes go here
 void swap_a(t_node **a);
 
-// Add these to your header file
 void rotate(t_node **node);
 void rotate_a(t_node **a);
 
