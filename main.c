@@ -77,17 +77,3 @@ int main(int argc, char **argv) {
     free(nums);
     return 0;
 }
-
-/*
-void print_stack(t_node *stack) {
-    printf("Stack: ");
-    while (stack) {
-        printf("%d ", stack->value);
-        stack = stack->next;
-    }
-    printf("\n");
-} 
-
- printf("Initial Stack:\n");
-    print_stack(stack_a);
-*/
